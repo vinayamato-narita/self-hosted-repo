@@ -6,7 +6,7 @@ name: Build and deploy PHP app to Azure Web App - narita-webapps-test
 on:
   push:
     branches:
-      - develop
+      - develop/12345
   workflow_dispatch:
 
 jobs:
