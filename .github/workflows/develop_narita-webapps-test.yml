@@ -10,6 +10,9 @@ name: deploy to develop-webapps
 #  workflow_dispatch:
 
 on: 
+  push:
+    branches:
+      - 'develop-*'
   workflow_dispatch:
     inputs:
       environment:
